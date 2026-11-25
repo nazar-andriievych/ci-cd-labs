@@ -11,6 +11,13 @@ on:
   push:
     paths: ["lab-02/**", ".github/workflows/publish-lab-02.yml"]
 
+# start from nothing and add the one scope that is needed. Without packages: write
+# the push answers 403 - the token is real, it was minted for this run, it simply
+# was never given the permission to write packages.
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   test:
     runs-on: ubuntu-24.04

@@ -1,0 +1,1 @@
+ghcr.io/nazar-andriievych/ci-cd-labs@sha256:8ffb34e9470fa48fbfe57624430a5b5cba2c5165cafe903a38b3ca2d002be1da
